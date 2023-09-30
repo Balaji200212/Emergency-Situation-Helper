@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginStart="30dp"
+      android:layout_marginLeft="30dp"
+      android:layout_marginTop="130dp"
+      android:layout_marginEnd="30dp"
+      android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/th" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Life Saver"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Create a ticket to address your problem"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:text="Please login first to submit your feedback"
+        android:textColor="#E92C0C"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edtdesign"
+        android:hint="User Name"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edtdesign"
+        android:hint="Write a quick summary of your issue..."
+        android:inputType="text"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edtdesign"
+        android:hint="Upload images in a drive and paste the link here..."
+        android:inputType="text"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Go to the drive link and verify your images"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btndesign"
+        android:text="Submit"
+        android:textAllCaps="false" />
+
+
+
+
+  </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Services">
+        <menu>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/Reqam"
+            android:icon="@drawable/ic_baseline_directions_bus_24"
+            android:title="Request Ambulance"
+            />
+        <item android:id="@+id/reqfs"
+            android:icon="@drawable/ic_baseline_drive_eta_24"
+            android:title="Request FireSerive"
+            />
+        <item android:id="@+id/police"
+            android:icon="@drawable/ic_baseline_local_police_24"
+            android:title="Call Police"
+            />
+        <item android:id="@+id/all"
+            android:icon="@drawable/ic_baseline_medical_services_24"
+            android:title="All Services"
+            />
+    </group>
+        </menu>
+    </item>
+    <item android:id="@+id/troubleshoot"
+        android:icon="@drawable/ic_baseline_reviews_24"
+        android:title="TroubleShoot"
+        />
+    <item android:id="@+id/feedback"
+        android:icon="@drawable/ic_baseline_feedback_24"
+        android:title="Feedback"
+        />
+    <item android:id="@+id/Rate_us"
+        android:icon="@drawable/ic_baseline_rate_review_24"
+        android:title="Rate_us"
+        />
+    <item android:id="@+id/About_us"
+        android:icon="@drawable/ic_baseline_rate_review_24"
+        android:title="About_us"
+        />
+
+</menu>
